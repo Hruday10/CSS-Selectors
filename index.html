@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS SELECTORS</title>
+    <style>
+        body{
+            background-color:lightgreen;
+        }
+        ol li{
+            background-color:lightblue;
+        }
+        h3{
+            color:blue;
+        }
+        #red{
+            color:red;
+        }
+        h4{
+            color:#3366CC;font-weight:normal;letter-spacing:.2cm;margin-bottom:1 em;text-transform:lowercase;
+        }
+        
+    </style>
+</head>
+<body>
+    <p>
+        <h1 style="background-color:pink;color:black;"align=center><b>
+            Types Of CSS Selectors:</b>
+        </h1>
+    </p><br><br>
+    <h2 style="background-color:pink;color:black;" align=center><b>Descendant Selector:</b></h2>
+    <ol>
+        <li>Sentence 1</li>
+        <li>Sentence 2</li>
+        <li>
+            <ul>
+                <li>Hruday</li>
+                <li>Prabhath</li>
+            </ul>
+        </li>
+        <li>Hello World!!</li>
+    </ol>
+    <br><br>
+    <h2 style="background-color:pink;color:black;"align=center><b>Child Selector:</b></h2>
+    <div>
+        <p>
+            This is one more type of selector which is very similar to descendants but have different functionality.
+        </p>
+        <div>
+            This rule will render all the paragraphs in black if they are direct child of body element.
+        </div>
+        <p>
+            Other paragraphs put inside other element like div or td etc.would not have any effect of this rule.
+        </p>
+    </div>
+    <h2 style="background-color:pink;color:black;"align=center><b>Class Selector:</b></h2>
+    <h3 class="blue">We are in Class Selector.</h3><br><br>
+    <h2 style="background-color:pink;color:black;"align=center><b>ID Selector:</b></h2>
+    <h3 id="red">We are in ID Selector.</h3><br><br>
+    <h2 style="background-color:pink;color:black;"align=center><b>Grouping Selector:</b></h2>
+    <h3>We are in Grouping Selector.</h3><br><br>
+    <h4>
+        You can apply a style to many selector if you like just separete the selector with a comma as given in the following example:
+    </h4>
+</body>
+</html>
